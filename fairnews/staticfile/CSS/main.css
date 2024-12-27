@@ -1,0 +1,40 @@
+/* Style for the navbar */
+.navbar-brand {
+    font-weight: bold;
+    color: #333 !important;
+}
+.nav-link {
+    color: #555 !important;
+}
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Hero Section */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/path/to/your/background-image.jpg') center/cover no-repeat;
+    color: white;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-title {
+    color: #333;
+    font-weight: bold;
+}
+.card-text {
+    color: #777;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    color: #555;
+    font-size: 0.9rem;
+}

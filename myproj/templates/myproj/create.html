@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new article</title>
+</head>
+<body>
+    <h1>create new article</h1>
+
+<form method="post">
+     {% csrf_token %} 
+    {{form.as_p}}
+    <button type= "submit"  style="padding: 10px 20px; background-color: green; color: white; border: none; cursor: pointer;">
+        Publish
+    </button >
+</form>
+
+< a href="{%url 'index'%}" > Back to home </a>
+
+</body>
+</html>
