@@ -119,7 +119,8 @@ USE_TZ = True
 
 STATIC_URL = 'staticfile/'
 STATICFILES_DIRS=[
-    os.path.join(BASE_DIR,'fairnews', 'staticfile')
+    os.path.join(BASE_DIR,'fairnews', 'staticfile'),
+    os.path.join(BASE_DIR, 'frontend','dist')
 ]
 
 # Default primary key field type
